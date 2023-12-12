@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(250, 249, 225);
+}
+
+.heading {
+    text-align: center;
+    font-family:"Chalkboard SE" ;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+}
+
+p,
+ol,
+ul {
+    font-family: "Futura";
+    font-weight: 100;
+    
+}
+.home {
+color: rgb(230, 201, 11);
+font-size: 70px;
+font-family: "Chalkboard SE";
+text-align: center;
+}
+.cutlery {
+    position: absolute;
+    top: 120px;
+    left: 860px;    
+    height: auto;
+    width: 150px;
+}
+.butt{
+    position: absolute;
+    top: 280px;
+    left: 760px;
+}
+button {
+    background-color: rgb(250, 249, 225);
+    color: rgb(200, 144, 61);
+    font-family:"Copperplate";
+}
