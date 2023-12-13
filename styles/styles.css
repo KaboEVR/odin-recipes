@@ -1,44 +1,43 @@
 body {
-    background-color: rgb(250, 249, 225);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+    background-color: rgb(250, 248, 213);
 }
-
-.heading {
+body h1 {
     text-align: center;
-    font-family:"Chalkboard SE" ;
-}
-
-.centre {
-    display: flex;
-    justify-content: center;
-}
-
-p,
-ol,
-ul {
-    font-family: "Futura";
-    font-weight: 100;
-    
-}
-.home {
-color: rgb(230, 201, 11);
-font-size: 70px;
-font-family: "Chalkboard SE";
-text-align: center;
-}
-.cutlery {
-    position: absolute;
-    top: 120px;
-    left: 860px;    
-    height: auto;
-    width: 150px;
-}
-.butt{
-    position: absolute;
-    top: 280px;
-    left: 760px;
+    font-size: 36px;
 }
 button {
-    background-color: rgb(250, 249, 225);
-    color: rgb(200, 144, 61);
-    font-family:"Copperplate";
+    color: rgb(69, 44, 44);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(247, 247, 247);
+    font-size: 18px;
+    display: block;
+}
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+.center.press {
+    width: 25%;
+    display:flex;
+}
+
+.center.logo {
+    height: auto;
+    width: 300px;
+}
+
+.left{
+    text-align: left;
+}
+.title {
+    text-align: center;
+}
+.note {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
 }
